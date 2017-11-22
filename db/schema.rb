@@ -10,8 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171122142215) do
-create_table "barbers", force: true do |t|
+ActiveRecord::Schema.define(version: 20171122151814) do
+	create_table "barbers", force: true do |t|
     t.text     "name"
     t.datetime "created_at"
     t.datetime "updated_at"
