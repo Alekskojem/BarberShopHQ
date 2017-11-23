@@ -1,6 +1,6 @@
 class CreateBarbers < ActiveRecord::Migration[5.1]
   def change
-  reate_table :barbers do |t|
+  create_table :barbers do |t|
   			t.text :name
   end
 

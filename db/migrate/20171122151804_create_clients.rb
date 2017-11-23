@@ -1,6 +1,6 @@
 class CreateClients < ActiveRecord::Migration[5.1]
   def change
-eate_table :clients do |t|
+create_table :clients do |t|
   			t.text :name
   			t.text :phone
   			t.text :datestamp
@@ -9,6 +9,6 @@ eate_table :clients do |t|
 
   			t.timestamp
 end
-  	
+
   end
 end
